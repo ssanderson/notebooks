@@ -1,0 +1,53 @@
+*.py[co]
+*~
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+.noseids
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+test.log
+
+# vim
+*.swp
+*.swo
+
+# Developer project-specific git configurations
+.gitconfig
+
+# Mac OSX folder properties
+.DS_Store
+
+# Sublime Text 2
+*.sublime-*
+
+# generated xml files when using jenkins nose config
+coverage.xml
+nosetests.xml
+
+# Generated from algoproxy algo code
+test_algorithm_sycheck.py
+
+# PyCharm custom settings
+.idea
+
+# Cache files
+.*-*.cache
+
+# etags 
+*TAGS
