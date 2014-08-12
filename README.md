@@ -32,7 +32,7 @@ create an isolated environment for these notebooks by running
 ```
 mkvirtualenv <env_name>
 ```
-(where you can replace <env_name> with the name you actually want to use).
+(where you can replace `<env_name>` with the name you actually want to use).
 
 You can then switch between environments using the `workon` command
 ##### Example
@@ -41,7 +41,7 @@ workon notebook_env
 \# Do notebook stuff.
 ...
 workon some_other_project_env
-\# Do other_project stuff.
+\# Do other project stuff.
 ```
 
 Installing Dependencies
